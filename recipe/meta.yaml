@@ -1,8 +1,8 @@
 {% set name = "absl-py" %}
-{% set version = "0.1.10" %}
+{% set version = "0.2.0" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "908eba9a96a37c10f10074aba57d685070b814906b02a1ea2cf54bb10a6b8c74" %}
+{% set hash_value = "73d7d88454b97d54d95946685030962a7226c7a327f1ae925afe977098ef37ec" %}
 
 package:
   name: {{ name|lower }}
