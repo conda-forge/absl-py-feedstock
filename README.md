@@ -14,12 +14,15 @@ Summary: Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/absl-py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/absl-py-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/absl-py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/absl-py-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/absl-py/badges/version.svg)](https://anaconda.org/conda-forge/absl-py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/absl-py/badges/downloads.svg)](https://anaconda.org/conda-forge/absl-py)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-absl--py-green.svg)](https://anaconda.org/conda-forge/absl-py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/absl-py.svg)](https://anaconda.org/conda-forge/absl-py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/absl-py.svg)](https://anaconda.org/conda-forge/absl-py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/absl-py.svg)](https://anaconda.org/conda-forge/absl-py) |
 
 Installing absl-py
 ==================
