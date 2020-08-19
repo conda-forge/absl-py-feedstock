@@ -1,5 +1,5 @@
 {% set name = "absl-py" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75e737d6ce7723d9ff9b7aa1ba3233c34be62ef18d5859e706b8fdc828989830
+  sha256: b20f504a7871a580be5268a18fbad48af4203df5d33dbc9272426cb806245a45
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
-  
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 requirements:
   host:
     - python
@@ -35,7 +34,7 @@ about:
   home: https://abseil.io/
   license: Apache 2.0
   license_family: Apache
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: Abseil Python Common Libraries, see https://github.com/abseil/abseil-py.
   doc_url: https://abseil.io/docs/
   dev_url: https://github.com/abseil/abseil-py
