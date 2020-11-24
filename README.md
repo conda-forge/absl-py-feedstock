@@ -1,9 +1,9 @@
 About absl-py
 =============
 
-Home: https://abseil.io/
+Home: https://github.com/abseil/abseil-py
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/absl-py-feedstock/blob/master/LICENSE.txt)
 
@@ -119,4 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@jjhelmus](https://github.com/jjhelmus/)
+* [@ocefpaf](https://github.com/ocefpaf/)
 
