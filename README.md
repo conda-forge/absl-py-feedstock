@@ -40,6 +40,7 @@ Installing `absl-py` from the `conda-forge` channel can be achieved by adding `c
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `absl-py` can be installed with:
@@ -118,6 +119,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@jjhelmus](https://github.com/jjhelmus/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
