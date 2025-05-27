@@ -1,5 +1,5 @@
 {% set name = "absl-py" %}
-{% set version = "2.2.1" %}
+{% set version = "2.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4c7bc50d42d021c12d4f31b7001167925e0bd71ade853069f64af410f5565ff9
+  sha256: d96fda5c884f1b22178852f30ffa85766d50b99e00775ea626c23304f582fc4f
 
 build:
   noarch: python
@@ -18,8 +18,7 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools
-    - ez_setup
+    - hatchling >=1.26
     - pip
   run:
     - python >={{ python_min }}
