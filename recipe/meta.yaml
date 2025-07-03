@@ -1,5 +1,5 @@
 {% set name = "absl-py" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d96fda5c884f1b22178852f30ffa85766d50b99e00775ea626c23304f582fc4f
+  sha256: a97820526f7fbfd2ec1bce83f3f25e3a14840dac0d8e02a0b71cd75db3f77fc9
 
 build:
   noarch: python
