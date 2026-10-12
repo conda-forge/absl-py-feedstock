@@ -3,7 +3,7 @@ About absl-py-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/absl-py-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/abseil/abseil-py
+Home: https://pypi.org/project/absl-py/
 
 Package license: Apache-2.0
 
@@ -11,7 +11,7 @@ Summary: Abseil Python Common Libraries, see https://github.com/abseil/abseil-py
 
 Development: https://github.com/abseil/abseil-py
 
-Documentation: https://abseil.io/docs/
+Documentation: https://abseil.io/docs/python/
 
 Current build status
 ====================
