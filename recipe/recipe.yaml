@@ -1,0 +1,47 @@
+schema_version: 1
+
+context:
+  version: "2.5.1"
+
+package:
+  name: absl-py
+  version: ${{ version }}
+
+source:
+  url: https://files.pythonhosted.org/packages/source/a/absl-py/absl_py-${{ version }}.tar.gz
+  sha256: 286e71c82c1a38e75bbcf185f9b37d0305ad7786535107cb49bf4df9ff2e1f95
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - hatchling >=1.26
+    - pip
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - absl
+        - absl.flags
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+
+about:
+  summary: Abseil Python Common Libraries, see https://github.com/abseil/abseil-py.
+  license: Apache-2.0
+  license_file: LICENSE
+  homepage: https://pypi.org/project/absl-py/
+  repository: https://github.com/abseil/abseil-py
+  documentation: https://abseil.io/docs/python/
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
